@@ -1,6 +1,6 @@
 # Look at the site
 
-[go to website](https://reddripill.github.io/todo-for-begginers/)
+[go to website](https://reddripill.github.io/Weather/)
 
 # Getting Started with Create React App
 
