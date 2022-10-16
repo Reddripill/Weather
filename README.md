@@ -1,3 +1,7 @@
+# Look at the site
+
+[go to website](https://reddripill.github.io/todo-for-begginers/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
