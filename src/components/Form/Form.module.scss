@@ -1,0 +1,72 @@
+.weather-form {
+	display: flex;
+	align-items: center;
+	width: 620 / 760 * 100%;
+	height: 80px;
+	background-color: rgb(88, 88, 88, 0.3);
+	border-radius: 55px;
+	overflow: hidden;
+	margin-top: 53px;
+	margin-bottom: 42px;
+	column-gap: 30px;
+	padding: 0px 16px 0px 40px;
+	@media(max-width : 1024px){
+		width: 450 / 550 * 100%;
+	}
+	@media(max-width : 600px){
+		width: 350 / 400 * 100%;
+		padding-left: 20px;
+		height: 60px;
+		margin-bottom: 30px;
+	}
+	@media(max-width : 430px){
+		padding-left: 15px;
+		padding-right: 8px;
+		column-gap: 0px;
+		margin-bottom: 15px;
+	}
+	&__input {
+		flex: 1 1 auto;
+		height: 100%;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-family: 'Poppins';
+		font-size: 30px;
+		background-color: transparent;
+		color: #fff;
+		@media(max-width : 1024px){
+			font-size: 22px;
+		}
+		@media(max-width : 600px){
+			font-size: 18px;
+		}
+		@media(max-width : 430px){
+			font-size: 16px;
+		}
+		&::-webkit-input-placeholder {
+			color: rgba(255, 255, 255, 0.3);
+		}
+	}
+	&__button {
+		flex: 0 0 60px;
+		border: 0;
+		height: 60px;
+		padding: 0;
+		border: 0;
+		background-color: rgba(255, 255, 255, 0.9);
+		border-radius: 50%;
+		cursor: pointer;
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: inherit;
+		-webkit-appearance: none;
+		outline: none;
+		@media(max-width : 600px){
+			flex: 0 0 40px;
+			height: 40px;
+		}
+	}
+}
